@@ -1,0 +1,29 @@
+#Project Overview
+The House Price Prediction project involves creating a machine learning model to predict house prices based on various features such as location, size, and other relevant attributes. The project includes:
+
+Data cleaning and preprocessing.
+Model training and evaluation.
+A web interface for users to input data and receive predictions
+
+Usage
+To use the House Price Prediction project, follow these steps:
+
+Prepare the data:
+
+Ensure cleaned_data.csv is in the project directory.
+The dataset should contain the necessary features for model training.
+
+Train the model:
+
+Run Prediction Project.ipynb to train the machine learning model using the provided dataset.
+This will create a serialized model file (e.g., model.pkl).
+
+Start the Flask application:
+python Model_pycharm.py
+
+This will start a local server on http://127.0.0.1:5000/.
+
+Access the web interface:
+
+Open a web browser and go to http://127.0.0.1:5000/.
+Use the interface to input data and get house price predictions.
